@@ -3,8 +3,8 @@ import MyWorkHeader from "./MyWorkHeader";
 import { FaEye, FaTimes, FaVideo } from 'react-icons/fa'; 
 import { FaGithub, FaPlay, FaExternalLinkAlt } from 'react-icons/fa';
 // Web Development
-import gamelyImg from "../../assets/WebDev/gamely.png";
-import gamelyVid from "../../assets/WebDev/gamely.mp4";
+import gamelyImg from "../../assets/WebDev/Gamely.png";
+import gamelyVid from "../../assets/WebDev/Gamely.mp4";
 import DharmaGyanImg from "../../assets/WebDev/DharmaGyan.png";
 import DharmaGyanVid from "../../assets/WebDev/DharmaGyan.mp4";
 import YT2MP3Img from "../../assets/WebDev/YT2MP3.png";
