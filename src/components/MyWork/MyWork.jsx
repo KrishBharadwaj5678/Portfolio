@@ -64,36 +64,20 @@ const projectsData = {
       videoLink: DharmaGyanVid
     },
     {
-      name: "YT2Music",
-      description: "Transform your favorite YouTube videos into high quality audio with YT2Music! Whether it’s music, podcasts YT2Music delivers the audio experience you crave.",
-      image: YT2MP3Img,
-      gitLink: "https://github.com/KrishBharadwaj5678/YT2Music",
-      demoLink: "https://yt-2-music.netlify.app/", 
-      videoLink: YT2MP3Vid
+      name: "Drawly",
+      description: "Drawly is the ultimate online whiteboard for creativity! It lets you to share your ideas in real time. Drawly smooth interface makes it easy and fun to bring your thoughts to life.",
+      image: DrawlyImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Drawly",
+      demoLink: "https://drawly.onrender.com/", 
+      videoLink: DrawlyVid
     },
     {
-      name: "Film Spotter",
-      description: "Film Spotter is your curated guide to the world of cinema. It helps you navigate the vast landscape of movies information, ensuring every viewing experience is memorable.",
-      image: FilmSpotterImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/FilmSpotter",
-      demoLink: "https://filmspotter.netlify.app/", 
-      videoLink: FilmSpotterVid
-    },
-    {
-      name: "Insta Snoop",
-      description: "InstaSnoop enables you to deep dive into Instagram profiles, offering a seamless way to scrape and explore user data for valuable insights.",
-      image: InstaSnoopImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/InstaSnoop",
-      demoLink: "https://instasnoop.netlify.app/", 
-      videoLink: InstaSnoopVid
-    },
-    {
-      name: "Wrestle Wave",
-      description: "Dive into WrestleWave, the exciting game where you identify WWE Superstars by their theme music. Enjoy immersive sound effects and prove your wrestling knowledge.",
-      image: WrestleWaveImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/WrestleWave-1",
-      demoLink: "https://wrestlewave.netlify.app/", 
-      videoLink: WrestleWaveVid
+      name: "Neura AI",
+      description: "Neura AI is an advanced AI chatbot that provides instant responses tailored to your needs. It features text to speech and allows you to easily download prompts as PDFs.",
+      image: NeuraAIImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/NeuraAI",
+      demoLink: "https://neuraai.onrender.com/", 
+      videoLink: NeuraAIVid
     },
     {
       name: "Stock Flix",
@@ -102,6 +86,14 @@ const projectsData = {
       gitLink: "https://github.com/KrishBharadwaj5678/StockFlick",
       demoLink: "https://stockflick.netlify.app/", 
       videoLink: StockFlixVid
+    },
+    {
+      name: "Wrestle Wave",
+      description: "Dive into WrestleWave, the exciting game where you identify WWE Superstars by their theme music. Enjoy immersive sound effects and prove your wrestling knowledge.",
+      image: WrestleWaveImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/WrestleWave-1",
+      demoLink: "https://wrestlewave.netlify.app/", 
+      videoLink: WrestleWaveVid
     },
     {
       name: "Visigen",
@@ -120,28 +112,36 @@ const projectsData = {
       videoLink: GesturaVid
     },
     {
-      name: "Drawly",
-      description: "Drawly is the ultimate online whiteboard for creativity! It lets you to share your ideas in real time. Drawly smooth interface makes it easy and fun to bring your thoughts to life.",
-      image: DrawlyImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/Drawly",
-      demoLink: "https://drawly.onrender.com/", 
-      videoLink: DrawlyVid
-    },
-    {
-      name: "Neura AI",
-      description: "Neura AI is an advanced AI chatbot that provides instant responses tailored to your needs. It features text to speech and allows you to easily download prompts as PDFs.",
-      image: NeuraAIImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/NeuraAI",
-      demoLink: "https://neuraai.onrender.com/", 
-      videoLink: NeuraAIVid
-    },
-    {
       name: "Chatzyx",
       description: "Chatzyx connects you with random users from around the world for real time. Dive into a dynamic chat experience and make connections that matter!",
       image: ChatzyxImg,
       gitLink: "https://github.com/KrishBharadwaj5678/Chatzyx",
       demoLink: "https://chatzyx.onrender.com/", 
       videoLink: ChatzyxVid
+    },
+    {
+      name: "Film Spotter",
+      description: "Film Spotter is your curated guide to the world of cinema. It helps you navigate the vast landscape of movies information, ensuring every viewing experience is memorable.",
+      image: FilmSpotterImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/FilmSpotter",
+      demoLink: "https://filmspotter.netlify.app/", 
+      videoLink: FilmSpotterVid
+    },
+    {
+      name: "YT2Music",
+      description: "Transform your favorite YouTube videos into high quality audio with YT2Music! Whether it’s music, podcasts YT2Music delivers the audio experience you crave.",
+      image: YT2MP3Img,
+      gitLink: "https://github.com/KrishBharadwaj5678/YT2Music",
+      demoLink: "https://yt-2-music.netlify.app/", 
+      videoLink: YT2MP3Vid
+    },
+    {
+      name: "Insta Snoop",
+      description: "InstaSnoop enables you to deep dive into Instagram profiles, offering a seamless way to scrape and explore user data for valuable insights.",
+      image: InstaSnoopImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/InstaSnoop",
+      demoLink: "https://instasnoop.netlify.app/", 
+      videoLink: InstaSnoopVid
     }
   ],
   "Augmented Reality": [
@@ -264,7 +264,7 @@ const MyWork = () => {
         {projectsData[selectedTab].slice(0, visibleProjects[selectedTab]).map((project, index) => (
           <div
             key={index}
-            className="bg-[#191919]  p-4 rounded-md shadow-2xl transition-transform duration-200 transform hover:scale-102"
+            className="bg-[#191919] p-4 rounded-md shadow-2xl transition-transform duration-300 transform hover:scale-102" 
           >
             {/* Project Image */}
             <img
