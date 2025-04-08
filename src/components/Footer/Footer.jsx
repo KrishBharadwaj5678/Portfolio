@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-top-right">
-            <div className="footer-email-input">
+            <div className="footer-email-input overflow-hidden">
               <img src={user_icon} alt="" />
               <input type="email" value={email} placeholder='Enter your email' onChange={(e)=>setEmail(e.target.value)}/>
             </div>
