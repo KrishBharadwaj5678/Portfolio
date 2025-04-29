@@ -42,6 +42,16 @@ import HandTrackPyVid from "../../assets/Python/HandTrackPy.mp4";
 import HandTrackPyImg from "../../assets/Python/HandTrackPy.png";
 import ScriptifyVid from "../../assets/Python/Scriptify.mp4";
 import ScriptifyImg from "../../assets/Python/Scriptify.png";
+import AstroPulseVid from "../../assets/Python/AstroPulse.mp4";
+import AstroPulseImg from "../../assets/Python/AstroPulse.png";
+import GlobalTranslateVid from "../../assets/Python/GlobalTranslate.mp4";
+import GlobalTranslateImg from "../../assets/Python/GlobalTranslate.png";
+import EmailSenderVid from "../../assets/Python/EmailSender.mp4";
+import EmailSenderImg from "../../assets/Python/EmailSender.png";
+import InspireVistaVid from "../../assets/Python/InspireVista.mp4";
+import InspireVistaImg from "../../assets/Python/InspireVista.png";
+import BookinVid from "../../assets/Python/Bookin.mp4";
+import BookinImg from "../../assets/Python/Bookin.png";
 
 
 // Updated data structure for multiple categories
@@ -177,6 +187,46 @@ const projectsData = {
       demoLink: "https://scriptify.streamlit.app/", 
       videoLink: ScriptifyVid
     },
+    {
+      name: "AstroPulse",
+      description: "Stay updated with daily,weekly and monthly horoscopes tailored to your zodiac sign. Align yourself with the cosmic rhythms for better living.",
+      image: AstroPulseImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/AstroPulse",
+      demoLink: "https://astropulse.streamlit.app/", 
+      videoLink: AstroPulseVid
+    },
+    {
+      name: "Global Translate",
+      description: "Global Translate brings the world to your fingertips with its powerful translation engine. Effortlessly communicate across borders and cultures with precision and ease.",
+      image: GlobalTranslateImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Global-Translate",
+      demoLink: "https://global-translate.streamlit.app/", 
+      videoLink: GlobalTranslateVid
+    },
+    {
+      name: "Email Sender",
+      description: "Streamline your communication with our intuitive email sending platform. Our user friendly interface lets you effortlessly compose and send emails to recipients at once.",
+      image: EmailSenderImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Email-Sender",
+      demoLink: "https://mail-sender.streamlit.app/", 
+      videoLink: EmailSenderVid
+    },
+    {
+      name: "Inspire Vista",
+      description: "Feeling stuck or in need of a little inspiration? You've come to the right place! Our Motivational Quotes Generator is here to lift your spirits and help you seize the day.",
+      image: InspireVistaImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Inspire-Vista",
+      demoLink: "https://inspire-vista.streamlit.app/", 
+      videoLink: InspireVistaVid
+    },
+    {
+      name: "Bookin",
+      description: "Bookin provides a powerful admin dashboard for managing hotel bookings. Designed for hotel administrators, this system allows you to effortlessly handle all booking tasks, including adding, editing, viewing, and removing bookings.",
+      image: BookinImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Bookin",
+      demoLink: "https://bookin.streamlit.app/", 
+      videoLink: BookinVid
+    }
   ],
   "3D": [
     {
@@ -238,12 +288,12 @@ const MyWork = () => {
   };
 
   return (
-    <div className="text-white p-8">
+    <div className="text-white p-6">
       
       <MyWorkHeader />
 
       {/* Tabs */}
-      <div className="flex justify-center flex-wrap mt-9 mb-8 gap-4 md:flex-nowrap space-x-6 md:mb-12">
+      <div className="flex justify-center flex-wrap mt-10 mb-8 gap-4 md:flex-nowrap space-x-6 md:mb-12">
         {Object.keys(projectsData).map((tab) => (
           <button
             key={tab}
