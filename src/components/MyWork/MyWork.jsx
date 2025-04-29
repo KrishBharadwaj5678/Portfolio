@@ -52,6 +52,8 @@ import InspireVistaVid from "../../assets/Python/InspireVista.mp4";
 import InspireVistaImg from "../../assets/Python/InspireVista.png";
 import BookinVid from "../../assets/Python/Bookin.mp4";
 import BookinImg from "../../assets/Python/Bookin.png";
+import WordWhizVid from "../../assets/Python/WordWhiz.mp4";
+import WordWhizImg from "../../assets/Python/WordWhiz.png";
 
 
 // Updated data structure for multiple categories
@@ -221,11 +223,19 @@ const projectsData = {
     },
     {
       name: "Bookin",
-      description: "Bookin provides a powerful admin dashboard for managing hotel bookings. Designed for hotel administrators, this system allows you to effortlessly handle all booking tasks, including adding, editing, viewing, and removing bookings.",
+      description: "Bookin provides a powerful admin dashboard for managing hotel bookings. This system allows you to effortlessly handle all booking tasks.",
       image: BookinImg,
       gitLink: "https://github.com/KrishBharadwaj5678/Bookin",
       demoLink: "https://bookin.streamlit.app/", 
       videoLink: BookinVid
+    },
+    {
+      name: "Word Whiz",
+      description: "Our comprehensive online dictionary provides detailed parts of speech, synonyms, antonyms, and example sentences to help you master every word.",
+      image: WordWhizImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Word-Whiz",
+      demoLink: "https://word-whiz.streamlit.app/", 
+      videoLink: WordWhizVid
     }
   ],
   "3D": [
@@ -288,17 +298,17 @@ const MyWork = () => {
   };
 
   return (
-    <div className="text-white p-6">
+    <div className="text-white p-6 md:p-16 mt-0 md:mt-[-30px]">
       
       <MyWorkHeader />
 
       {/* Tabs */}
-      <div className="flex justify-center flex-wrap mt-10 mb-8 gap-4 md:flex-nowrap space-x-6 md:mb-12">
+      <div className="flex justify-center flex-wrap mt-13 mb-8 gap-4 md:flex-nowrap space-x-6 md:mb-12">
         {Object.keys(projectsData).map((tab) => (
           <button
             key={tab}
             onClick={() => handleTabClick(tab)}
-            className={`py-3 px-5 cursor-pointer rounded-sm text-lg font-semibold transition-all duration-300 transform ${
+            className={`py-3 px-5 md:py-4 md:px-5 cursor-pointer rounded-sm text-lg font-semibold transition-all duration-300 transform ${
               selectedTab === tab
                 ? "text-white gradient-border bg-gray-800 scale-105"
                 : "bg-gray-800 text-gray-400  hover:text-white"
@@ -310,7 +320,7 @@ const MyWork = () => {
       </div>
 
       {/* Projects */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
         {projectsData[selectedTab].slice(0, visibleProjects[selectedTab]).map((project, index) => (
           <div
             key={index}

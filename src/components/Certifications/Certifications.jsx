@@ -49,7 +49,7 @@ let certificates = [
 const Certifications = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [visibleCount, setVisibleCount] = useState(8); // State to manage how many certificates are visible
+  const [visibleCount, setVisibleCount] = useState(12); // State to manage how many certificates are visible
 
   const openModal = (image) => {
     setSelectedImage(image);
@@ -66,7 +66,7 @@ const Certifications = () => {
   };
 
   const showLess = () => {
-    setVisibleCount((prevCount) => Math.max(prevCount - 12, 8)); // Show 8 less, but never go below 8
+    setVisibleCount((prevCount) => Math.max(prevCount - 12, 12)); // Show 8 less, but never go below 8
   };
 
   return (
@@ -100,7 +100,7 @@ const Certifications = () => {
           {visibleCount < certificates.length ? (
           <button
             onClick={loadMore}
-            className="bg-gradient-to-l from-rose-400 to-[#B415FF] text-white px-5 py-4 rounded-md hover:bg-gradient-to-r transition duration-300 text-lg cursor-pointer"
+            className="bg-gradient-to-l from-rose-400 to-[#B415FF] text-white px-5 py-4 rounded-sm hover:bg-gradient-to-r transition duration-300 text-lg cursor-pointer"
           >
             Load More
           </button>
