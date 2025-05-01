@@ -31,12 +31,16 @@ import LinkoVid from "../../assets/WebDev/Linko.mp4";
 import LinkoImg from "../../assets/WebDev/Linko.png";
 import DetectlyVid from "../../assets/WebDev/Detectly.mp4";
 import DetectlyImg from "../../assets/WebDev/Detectly.png";
+import SarvyaVid from "../../assets/WebDev/Sarvya.mp4";
+import SarvyaImg from "../../assets/WebDev/Sarvya.png";
 
 // AR (best portrait -> Square 1:1)
 import ARStreamVid from "../../assets/AR/ARStream.mp4";
 import ARStreamImg from "../../assets/AR/ARStream.jpg";
 import HeliSphereVid from "../../assets/AR/HeliSphere.mp4";
 import HeliSphereImg from "../../assets/AR/HeliSphere.jpg";
+import BeastifyVid from "../../assets/AR/Beastify.mp4";
+import BeastifyImg from "../../assets/AR/Beastify.png";
 
 // 3D 
 import GoldRingImg from "../../assets/3D/GoldRing.png";
@@ -105,7 +109,6 @@ const projectsData = {
       demoLink: "https://detectly.onrender.com/", 
       videoLink: DetectlyVid
     },
-    
     {
       name: "Linko",
       description: "Linko is a modern video conferencing webapp designed for seamless virtual communication. Linko connects teams, families, and friends effortlessly.",
@@ -137,6 +140,14 @@ const projectsData = {
       gitLink: "https://github.com/KrishBharadwaj5678/StockFlick",
       demoLink: "https://stockflick.netlify.app/", 
       videoLink: StockFlixVid
+    },
+    {
+      name: "Sarvya",
+      description: "Sarvya is an AI-powered voice assistant that answers your questions, helps with daily tasks, and automates simple actions all through natural voice commands.",
+      image: SarvyaImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Sarvya",
+      demoLink: "https://sarvya.vercel.app", 
+      videoLink: SarvyaVid
     },
     {
       name: "Wrestle Wave",
@@ -181,11 +192,12 @@ const projectsData = {
   ],
   "Augmented Reality": [
     {
-      name: "AR Stream",
-      description: "An augmented reality app developed with Unity that tracks images in real time. Upon detection, it overlays specified video seamlessly onto the tracked image.",
-      image: ARStreamImg,
-      demoLink: "https://drive.google.com/file/d/13SmxGZ6HcaWwHZ5YEKYXUpAlhEdbyakS/view?usp=sharing",
-      videoLink: ARStreamVid
+      name: "Beastify",
+      description: "Beastify is an immersive AR experience where wildlife comes to life! Explore stunning 3D animal models, uncover fascinating facts with text-to-speech.",
+      image: BeastifyImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Beastify",
+      demoLink: "https://beastify.onrender.com/",
+      videoLink: BeastifyVid
     },
     {
       name: "HeliSphere",
@@ -194,6 +206,13 @@ const projectsData = {
       gitLink: "https://github.com/KrishBharadwaj5678/Heli-Sphere",
       demoLink: "https://drive.google.com/file/d/1m19KtJQ-Yef_QL7YNKiPtsoLOVY63FWM/view?usp=sharing",
       videoLink: HeliSphereVid
+    },
+    {
+      name: "AR Stream",
+      description: "An augmented reality app developed with Unity that tracks images in real time. Upon detection, it overlays specified video seamlessly onto the tracked image.",
+      image: ARStreamImg,
+      demoLink: "https://drive.google.com/file/d/13SmxGZ6HcaWwHZ5YEKYXUpAlhEdbyakS/view?usp=sharing",
+      videoLink: ARStreamVid
     }
   ],
   "Python": [
