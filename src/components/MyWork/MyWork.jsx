@@ -27,6 +27,10 @@ import NeuraAIVid from "../../assets/WebDev/NeuraAI.mp4";
 import NeuraAIImg from "../../assets/WebDev/NeuraAI.png";
 import ChatzyxVid from "../../assets/WebDev/Chatzyx.mp4";
 import ChatzyxImg from "../../assets/WebDev/Chatzyx.png";
+import LinkoVid from "../../assets/WebDev/Linko.mp4";
+import LinkoImg from "../../assets/WebDev/Linko.png";
+import DetectlyVid from "../../assets/WebDev/Detectly.mp4";
+import DetectlyImg from "../../assets/WebDev/Detectly.png";
 
 // AR (best portrait -> Square 1:1)
 import ARStreamVid from "../../assets/AR/ARStream.mp4";
@@ -54,6 +58,8 @@ import BookinVid from "../../assets/Python/Bookin.mp4";
 import BookinImg from "../../assets/Python/Bookin.png";
 import WordWhizVid from "../../assets/Python/WordWhiz.mp4";
 import WordWhizImg from "../../assets/Python/WordWhiz.png";
+import MoodMeterVid from "../../assets/Python/MoodMeter.mp4";
+import MoodMeterImg from "../../assets/Python/MoodMeter.png";
 
 
 // Updated data structure for multiple categories
@@ -92,6 +98,39 @@ const projectsData = {
       videoLink: NeuraAIVid
     },
     {
+      name: "Detectly",
+      description: "Detectly is a real-time web application that detects faces, body poses, hands, gestures, and objects using your webcam directly in the browser.",
+      image: DetectlyImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Detectly/",
+      demoLink: "https://detectly.onrender.com/", 
+      videoLink: DetectlyVid
+    },
+    
+    {
+      name: "Linko",
+      description: "Linko is a modern video conferencing webapp designed for seamless virtual communication. Linko connects teams, families, and friends effortlessly.",
+      image: LinkoImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Linko",
+      demoLink: "https://linko.onrender.com/", 
+      videoLink: LinkoVid
+    },
+    {
+      name: "Chatzyx",
+      description: "Chatzyx connects you with random users from around the world for real time. Dive into a dynamic chat experience and make connections that matter!",
+      image: ChatzyxImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Chatzyx",
+      demoLink: "https://chatzyx.onrender.com/", 
+      videoLink: ChatzyxVid
+    },
+    {
+      name: "Gestura",
+      description: "An advanced AI powered webpage for real time detection of face gestures, landmarks, age, and gender. Gestura brings facial recognition technology to your fingertips.",
+      image: GesturaImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Gestura",
+      demoLink: "https://gestura.onrender.com/", 
+      videoLink: GesturaVid
+    },
+    {
       name: "Stock Flix",
       description: "Stay ahead of the market with Stock Flick. Get stock details, track top gainers and losers, and access comprehensive global market status updates.",
       image: StockFlixImg,
@@ -106,30 +145,6 @@ const projectsData = {
       gitLink: "https://github.com/KrishBharadwaj5678/WrestleWave-1",
       demoLink: "https://wrestlewave.netlify.app/", 
       videoLink: WrestleWaveVid
-    },
-    {
-      name: "Visigen",
-      description: "Discover the future of art creation. With Visigen, simply enter a prompt and our powerful AI will generate unique images that capture your vision.",
-      image: VisigenImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/Visigen",
-      demoLink: "https://visigen.netlify.app/", 
-      videoLink: VisigenVid
-    },
-    {
-      name: "Gestura",
-      description: "An advanced AI powered webpage for real time detection of face gestures, landmarks, age, and gender. Gestura brings facial recognition technology to your fingertips.",
-      image: GesturaImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/Gestura",
-      demoLink: "https://gestura.onrender.com/", 
-      videoLink: GesturaVid
-    },
-    {
-      name: "Chatzyx",
-      description: "Chatzyx connects you with random users from around the world for real time. Dive into a dynamic chat experience and make connections that matter!",
-      image: ChatzyxImg,
-      gitLink: "https://github.com/KrishBharadwaj5678/Chatzyx",
-      demoLink: "https://chatzyx.onrender.com/", 
-      videoLink: ChatzyxVid
     },
     {
       name: "Film Spotter",
@@ -148,13 +163,21 @@ const projectsData = {
       videoLink: YT2MP3Vid
     },
     {
+      name: "Visigen",
+      description: "Discover the future of art creation. With Visigen, simply enter a prompt and our powerful AI will generate unique images that capture your vision.",
+      image: VisigenImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Visigen",
+      demoLink: "https://visigen.netlify.app/", 
+      videoLink: VisigenVid
+    },
+    {
       name: "Insta Snoop",
       description: "InstaSnoop enables you to deep dive into Instagram profiles, offering a seamless way to scrape and explore user data for valuable insights.",
       image: InstaSnoopImg,
       gitLink: "https://github.com/KrishBharadwaj5678/InstaSnoop",
       demoLink: "https://instasnoop.netlify.app/", 
       videoLink: InstaSnoopVid
-    }
+    },
   ],
   "Augmented Reality": [
     {
@@ -236,7 +259,15 @@ const projectsData = {
       gitLink: "https://github.com/KrishBharadwaj5678/Word-Whiz",
       demoLink: "https://word-whiz.streamlit.app/", 
       videoLink: WordWhizVid
-    }
+    },
+    {
+      name: "Mood Meter",
+      description: "Mood Meter allows you to instantly understand the sentiment of any text, providing accurate and swift emotional insights.",
+      image: MoodMeterImg,
+      gitLink: "https://github.com/KrishBharadwaj5678/Mood-Meter",
+      demoLink: "https://moodmeter.streamlit.app/", 
+      videoLink: MoodMeterVid
+    },
   ],
   "3D": [
     {
