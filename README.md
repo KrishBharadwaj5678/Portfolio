@@ -21,8 +21,8 @@ It showcases my skills, projects, certifications, and services designed to refle
 
 ## 🧰 Tech Stack
 
-| Technology            | Purpose                                                       |
-| --------------------- | ------------------------------------------------------------- |
-| **ReactJS**           | Frontend JavaScript library for building the UI               |
-| **Tailwind CSS**      | Utility-first CSS framework for responsive and modern styling |
-| **React Router**      | Smooth navigation between sections                            |
+| Technology      | Purpose                                                                          |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| ⚛️ **ReactJS**      | Frontend JavaScript library for building dynamic user interfaces.                   |
+| 🎨 **Tailwind CSS** | Utility-first CSS framework for responsive and modern styling.                      |
+| ✉️ **Web3Forms**    | Handles form submissions securely without a backend.                                |
