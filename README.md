@@ -1,7 +1,8 @@
 # 💼 Personal Portfolio
 
-This is my **personal portfolio website** built using **ReactJS** and **Tailwind CSS**.
-It showcases my skills, projects, certifications, and services designed to reflect both creativity and professionalism.
+This is my **personal portfolio website** built using **ReactJS** and **Tailwind CSS**. It showcases my skills, projects, certifications, and services designed to reflect both creativity and professionalism.
+
+![PortfolioDemo](https://github.com/KrishBharadwaj5678/Portfolio/raw/main/PortfolioDemo.png)
 
 ---
 
