@@ -19,7 +19,7 @@
   A modern portfolio highlighting my skills, projects, certifications, and professional services through a clean and creative design. 
 </p>
 
-![PortfolioDemo](https://github.com/KrishBharadwaj5678/Portfolio/raw/main/PortfolioDemo.png)
+![PortfolioDemo](https://github.com/KrishBharadwaj5678/Portfolio/raw/main/src/assets/demos/PortfolioDemo.png)
 
 <img src="https://github.com/KrishBharadwaj5678/Portfolio/raw/main/src/assets/readme/divider.gif" width="100%"/>
 
